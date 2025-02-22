@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { FaSearch } from "react-icons/fa";
 
 export default function SearchBar() {
   const [isSearching, setIsSearching] = useState(false);
@@ -31,15 +32,15 @@ export default function SearchBar() {
           onChange={(e) => setSearchTerm(e.target.value)}
           onKeyDown={handleKeyDown}
           onBlur={handleBlur}
-          className="px-4 py-2 w-64 border rounded-md outline-none transition-all"
+          className="px-4 py-1 w-64 border rounded-md outline-none transition-all"
           placeholder="Type to search..."
         />
       ) : (
         <button
           onClick={handleSearchClick}
-          className="px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-200 transition-all"
+          className="px-4 py-2   hover:bg-gray-200 transition-all"
         >
-          Search
+          <FaSearch/>
         </button>
       )}
     </div>

@@ -3,7 +3,7 @@ import SearchBar from './SearchBar';
 const Navbar = () => {
   return (
     <>
-            <nav className="flex items-center justify-between px-6 py-3 bg-gray-900 text-white">
+            <nav className="flex items-center justify-between px-6 py-4 bg-gray-900 text-white">
       {/* Left: Logo */}
       <div className="text-xl font-bold">Logo</div>
 
