@@ -10,6 +10,7 @@ import myImage from './assets/plumber.jpg';
 import myImage2 from './assets/electrician.jpeg'; 
 import myImage3 from './assets/cleaning.jpg'; 
 import myImage4 from './assets/carpentary.jpg'; 
+import FAQ from './components/Questions';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           description="Perform basic woodwork repairs, assemble furniture, and install shelves or cabinets with essential tools."
         />
       </div>
+      <FAQ/>
 
       
       <Footer/>
