@@ -12,7 +12,7 @@ const Footer = () => {
     className="px-4 py-2 rounded-md text-white bg-gray-900 border-2 border-white focus:outline-none"
     />
 
-    <button className="bg-blue-600  px-4 py-2 rounded-md hover:bg-red-700">
+    <button className="bg-[#2c343f]  px-4 py-2 rounded-md hover:bg-[#3e4a5b]">
       Subscribe
     </button>
   </div>
