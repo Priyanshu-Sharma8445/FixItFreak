@@ -3,14 +3,14 @@ import React from 'react';
 
 const Card = ({ image, heading, description }) => {
   const cardStyle = {
-    border: '1px solid #ddd',
+    border: '1px solid grey',
     borderRadius: '8px',
     overflow: 'hidden',
     transition: 'transform 0.2s',
     cursor: 'pointer',
-    width: '300px',
-    margin: '16px',
-    backgroundColor: 'white',
+    width: '250px',
+    margin: '15px',
+    backgroundColor: 'none',
   };
 
   const cardImageStyle = {
@@ -27,10 +27,12 @@ const Card = ({ image, heading, description }) => {
     fontSize: '1.5em',
     margin: '0',
     textAlign: 'center',
+    color: 'white',
+
   };
 
   const cardDescriptionStyle = {
-    color: '#555',
+    color: 'grey',
     textAlign: 'center',
   };
 
