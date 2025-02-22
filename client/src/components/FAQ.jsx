@@ -6,7 +6,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 
-const FAQ = () => {
+const Faq = () => {
     return (
         <div className="flex flex-col items-center justify-center p-10 space-y-8 bg-gray-900 text-white">
             <h2 className="text-4xl font-bold mb-8">Frequently Asked Questions</h2>
