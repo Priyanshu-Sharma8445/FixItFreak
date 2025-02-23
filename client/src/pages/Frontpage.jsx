@@ -10,6 +10,7 @@ import myImage2 from '../assets/electrician.jpeg';
 import myImage3 from '../assets/cleaning.jpg';
 import myImage4 from '../assets/carpentary.jpg';
 import FAQ from '../components/Questions';
+import { Link } from 'react-router-dom';
 
 function Frontpage() {
   const [showLightning, setShowLightning] = useState(false);
@@ -83,8 +84,10 @@ function Frontpage() {
             </div>
 
             {/* 🎥 Right Side - 3D Element */}
-            <div className="w-full md:w-[40%] justify-center items-start min-h-[80vh] h-[80vh]">
+            <div className="w-full md:w-[40%] justify-center items-start min-h-[80vh] h-[80vh] scale-105">
+              
               <D3Element />
+              
             </div>
           </div>
         </div>
@@ -96,7 +99,10 @@ function Frontpage() {
 
         {/* 🔹 Card Section */}
         <div className="flex flex-wrap justify-center bg-gradient-to-b from-gray-900 to-black py-10 gap-8">
+            <Link to="/page/plumbing">
           <Card image={myImage} heading="Plumbing" description="Fix common issues like leaky faucets, clogged drains, and running toilets using basic tools and simple techniques." />
+                
+            </Link>
           <Card image={myImage2} heading="Electrician" description="Handle tasks like replacing outlets, fixing light fixtures, and troubleshooting minor electrical faults safely." />
           <Card image={myImage3} heading="Cleaning" description="Maintain a clean home by tackling tough stains, organizing spaces, and using effective cleaning solutions." />
           <Card image={myImage4} heading="Carpentry" description="Perform basic woodwork repairs, assemble furniture, and install shelves or cabinets with essential tools." />
