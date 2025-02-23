@@ -13,9 +13,9 @@ const Layout = () => {
         <Navbar />        
           
 
-        <main className=' w-full border'>
+        <main className=' w-full p-0 m-0'>
         
-          <div className='w-full min-h-[calc(100vh-50px)] pt-16'>
+          <div className='w-full min-h-[calc(100vh-50px)] pt-0 '>
           
             <Outlet />
 

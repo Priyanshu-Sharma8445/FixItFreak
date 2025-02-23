@@ -32,7 +32,7 @@ const PlumbingPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-6 min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
+    <div className="flex flex-col items-center p-6 min-h-screen bg-gradient-to-br from-black via-gray-900 to-black m-0">
       <motion.h1
         className="text-5xl font-extrabold text-white mb-10 tracking-wide"
         initial={{ opacity: 0, y: -20 }}
