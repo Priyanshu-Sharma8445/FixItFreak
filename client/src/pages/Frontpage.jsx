@@ -103,7 +103,8 @@ function Frontpage() {
           <Card image={myImage} heading="Plumbing" description="Fix common issues like leaky faucets, clogged drains, and running toilets using basic tools and simple techniques." />
                 
             </Link>
-          <Card image={myImage2} heading="Electrician" description="Handle tasks like replacing outlets, fixing light fixtures, and troubleshooting minor electrical faults safely." />
+            <Link to="/page/electrician">
+          <Card image={myImage2} heading="Electrician" description="Handle tasks like replacing outlets, fixing light fixtures, and troubleshooting minor electrical faults safely." /></Link>
           <Card image={myImage3} heading="Cleaning" description="Maintain a clean home by tackling tough stains, organizing spaces, and using effective cleaning solutions." />
           <Card image={myImage4} heading="Carpentry" description="Perform basic woodwork repairs, assemble furniture, and install shelves or cabinets with essential tools." />
         </div>

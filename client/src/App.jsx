@@ -111,9 +111,11 @@ import React, { useEffect, useState } from 'react';
 import Frontpage from './pages/Frontpage';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 
-import { RouteIndex, Routepage, RoutePlumbing } from './helper/RouteName';
+import { RouteCarpentry, RouteElect, RouteIndex, Routepage, RoutePlumbing } from './helper/RouteName';
 import Layout from './layout/Layout';
 import Plumbing from './pages/Plumbing';
+import Electrician from './pages/Electrician';
+import Carpainter from './pages/Carpainter';
 
 
 function App() {
@@ -125,7 +127,10 @@ function App() {
           <Route path={RouteIndex} element={<Frontpage/>}></Route>
 
           <Route path={Routepage} element={<Layout/>}>
-            <Route path={RoutePlumbing} element={<Plumbing/>} /></Route>
+            <Route path={RoutePlumbing} element={<Plumbing/>} />
+            <Route path={RouteElect} element={<Electrician/>} />
+            <Route path={RouteCarpentry} element={<Carpainter/>} />
+          </Route>
           {/* <Route path={RouteSignIn} element={<SignIn/>} />
           <Route path={RouteSignUp} element={<SignUp/>} /> */}
         </Routes>
