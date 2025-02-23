@@ -1,7 +1,7 @@
 import React from 'react';
 import ElecticianPage from '@/components/ElectricianPage';
 
-const Cleaning = () => {
+const Carpentry = () => {
   return (
     <>
     <ElecticianPage/>
@@ -9,4 +9,4 @@ const Cleaning = () => {
   );
 };
 
-export default Cleaning;
+export default Carpentry;
