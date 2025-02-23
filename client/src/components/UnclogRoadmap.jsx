@@ -1,47 +1,48 @@
 import { motion } from "framer-motion";
-import turnoff from '../assets/turnoff.webp';
-import plug from '../assets/plug.webp';
-import disassemble from '../assets/disassemble.jpg';
-import inspect from '../assets/inspect.jpg';
-import replace from '../assets/replace.jpeg';
-import reassemble from '../assets/reassemble.webp';
-import turnon from '../assets/turnon.jpeg';
+import remove from '../assets/debris.jpeg';
+import boiling from '../assets/boiling.webp';
+import cleaner from '../assets/cleaner.jpg';
+import plunge from '../assets/plunge.jpeg';
+import snake from '../assets/snake.jpg';
+import flush from '../assets/flush.jpeg';
+import check from '../assets/checkflow.jpg';
+
 
 const timelineData = [
   {
-    title: "Turn Off the Water Supply",
-    description: "Locate the shut-off valves under the sink and turn them off to stop water flow.",
-    image: turnoff,
+    title: "Remove Visible Debris",
+    description: "Clear any hair, soap scum, or other debris near the drain opening.",
+    image: remove,
   },
   {
-    title: "Plug the Drain",
-    description: "Use a sink plug or a cloth to prevent small parts from falling down the drain..",
-    image: plug,
+    title: "Use Boiling Water",
+    description: "Pour a pot of boiling water slowly down the drain to break down grease and soap buildup.",
+    image: boiling,
   },
   {
-    title: "Disassemble the Faucet",
+    title: "Apply a Drain Cleaner",
     description: "Remove the handle by loosening the screw underneath or behind it. Use a wrench if necessary.",
-    image: disassemble,
+    image: cleaner,
   },
   {
-    title: "Inspect the Parts",
-    description: "Check the washer, O-rings, and cartridge for signs of wear or damage..",
-    image: inspect,
+    title: "Plunge the Drain",
+    description: "Use a plunger to create suction and dislodge the blockage. Ensure the drain opening is fully covered.",
+    image: plunge,
   },
   {
-    title: "Replace Damaged Components",
-    description: "Swap out any worn washers, O-rings, or cartridges with new ones compatible with your faucet model.",
-    image: replace,
+    title: "Use a Drain Snake",
+    description: "Insert a drain snake or auger to reach deeper clogs. Rotate and pull it out carefully.",
+    image:  snake,
   },
   {
-    title: "Reassemble the Faucet",
-    description: "Carefully put the faucet back together in the reverse order of disassembly.",
-    image: reassemble,
+    title: "Flush with Hot Water",
+    description: "Rinse the drain thoroughly with hot water to clear any remaining residue.",
+    image: flush,
   },
   {
-    title: "Turn On the Water Supply",
-    description: "Open the shut-off valves and test the faucet to ensure there are no more leaks.",
-    image: turnon,
+    title: "Check for Flow",
+    description: "Test the drain by running water to confirm the clog is cleared.",
+    image: check,
   },
 ];
 
@@ -55,7 +56,7 @@ const scaleVariants = {
   visible: { scale: 1, opacity: 1, transition: { duration: 0.6 } },
 };
 
-export default function PlumbingTimeline() {
+export default function CloggingTimeline() {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
       <motion.h1
