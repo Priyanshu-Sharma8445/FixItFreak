@@ -2,8 +2,7 @@ FixitFreak Home Maintenance Web App
 
 A responsive web application offering DIY tutorials for home maintenance tasks like plumbing, electrical work, cleaning, and carpentry. Users can browse services and access an AI-powered assistant for guidance.
 
-Features
-
+Features:-
 Responsive Navbar with dynamic links and a search bar.
 
 Service Categories: Plumbing, Electrician, Cleaning, Carpentry.
@@ -34,12 +33,11 @@ Project Structure
 │   └── index.js
 └── package.json
 
-Installation
-
+Installation:-
 Clone the repository:
 
-   git clone https://github.com/yourusername/diy-home-maintenance.git
-   cd diy-home-maintenance
+   git clone https://github.com/Priyanshu-Sharma8445/FixitFreak.git
+   cd FixitFreak
 
 Install dependencies:
 
@@ -49,24 +47,21 @@ Run the application:
 
    npm start
 
-Usage
-
+Usage:-
 Navigate through categories using the navbar.
 
 Use the search bar to find specific DIY tutorials.
 
 Access the AI assistant for step-by-step guidance.
 
-Future Enhancements
-
+Future Enhancements:-
 User authentication system with session management.
 
 Additional service categories and tutorial content.
 
 Improved AI assistance for better user interaction.
 
-Contributing
-
+Contributing:-
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
@@ -77,7 +72,6 @@ Commit your changes.
 
 Push to your branch and create a Pull Request.
 
-License
-
+License:-
 This project is licensed under the MIT License.
 
