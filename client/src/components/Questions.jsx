@@ -8,7 +8,7 @@ import {
 
 const FAQ = () => {
     return (
-        <div className="flex flex-col items-center justify-center p-10 space-y-8 bg-gray-900 text-white">
+        <div className="flex flex-col items-center justify-center p-10 space-y-8 bg-black text-white">
             <h2 className="text-4xl font-bold mb-8">Frequently Asked Questions</h2>
             <Accordion type="single" collapsible className="w-full max-w-4xl">
                 {[
